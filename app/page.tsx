@@ -73,6 +73,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
               dolorum tempora et illo sed odit. Officiis, et placeat quasi
               recusandae expedita magni voluptas tempore doloribus accusamus
               voluptatu
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quisquam illo harum minus. Aliquam consequuntur non at illum nisi officia, explicabo accusamus, rerum soluta repellendus recusandae similique, quam vitae accusantium.
             </div>
             <div className="flex flex-row justify-around  items-center">
               
