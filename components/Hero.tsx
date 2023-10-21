@@ -64,9 +64,54 @@ const Hero = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.5 }}
         >
-          <Image src={Hello_world} className="rounded-lg" width={400} alt={""} />
+          <Image
+            src={Hello_world}
+            className="rounded-lg"
+            width={400}
+            alt={""}
+          />
         </motion.div>
-        <div className="md:absolute bottom-0 animate-pulse p-0 m-2">Scroll Down</div>
+        <motion.div
+       
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1.5 }} className="md:absolute flex flex-col justify-center align-middle items-center bottom-0 animate-pulse p-0 m-2">
+          <p
+          className=" font-bold text-xl">Scroll Down</p>
+          <div
+          className="border flex flex-col border-white py-2 p-1 rounded-full mt-3 justify-center items-center align-middle">
+          <svg
+            className="w-5 h-5 text-gray-800 dark:text-white animate-bounce pt-2"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 14 8"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m1 1 5.326 5.7a.909.909 0 0 0 1.348 0L13 1"
+            />
+          </svg>
+          <svg
+            className="w-5 h-5 text-gray-800 dark:text-white animate-bounce"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 14 8"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m1 1 5.326 5.7a.909.909 0 0 0 1.348 0L13 1"
+            />
+          </svg>
+          </div>
+        </motion.div>
       </div>
     </div>
   );
