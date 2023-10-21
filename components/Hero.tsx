@@ -17,9 +17,9 @@ const Hero = () => {
     >
       {/* <div className="hero-overlay bg-opacity-60"></div> */}
       <div className="hero-content flex-col lg:flex-row items-center text-center flex-wrap">
-        <div className=" flex justify-center items-center flex-col">
+        <div className=" flex md:justify-center  flex-col">
           <motion.div
-            className="text-5xl  text-center font-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent m-2"
+            className="text-5xl  w-fit text-center font-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent mb-2"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
@@ -27,7 +27,7 @@ const Hero = () => {
             Dhanush Prabakaran
           </motion.div>
           <motion.p
-            className="py-6 font-bold text-2xl m-2"
+            className="w-fit font-bold text-2xl text-left mb-2"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
@@ -35,23 +35,23 @@ const Hero = () => {
             Full Stack Developer, UI/UX Desiger, Blockchain Developer
           </motion.p>
           <motion.div
-            className=" w-fit flex justify-center h-fit m-2"
+            className=" w-fit flex justify-center h-fit "
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
           >
             <a href="">
-              <Image src={linkden} className="" alt={""} />
+              <Image src={linkden} className=" mr-2" alt={""} />
             </a>
             <a href="">
-              <Image src={medium} className="" alt={""} />
+              <Image src={medium} className="mr-2" alt={""} />
             </a>
             <a href="">
-              <Image src={github} className="" alt={""} />
+              <Image src={github} className="mr-2" alt={""} />
             </a>
           </motion.div>
           <motion.button
-            className="btn btn-primar m-2"
+            className="btn btn-primary w-fit"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.5 }}

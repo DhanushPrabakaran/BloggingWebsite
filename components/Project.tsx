@@ -22,7 +22,7 @@ const Project = () => {
 
             {/*  */}
             <motion.div
-              className="card w-80 glass m-1"
+              className="card w-72 glass m-2 hover:shadow-md hover:shadow-primary-focus  duration-75 hover:w-[19rem] hover:m-0"
               initial={{
                 scale: 0,
                 x: 10,
@@ -50,7 +50,7 @@ const Project = () => {
 
             {/*  */}
             <motion.div
-              className="card w-80 glass m-1"
+             className="card w-72 glass m-2 hover:shadow-md hover:shadow-primary-focus  duration-75 hover:w-[19rem] hover:m-0"
               initial={{
                 scale: 0,
                 x: 10,
