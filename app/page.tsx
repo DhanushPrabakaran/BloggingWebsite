@@ -1,9 +1,12 @@
-import { motion } from "framer-motion"
+import Project from "@/components/Project";
 import Header from "@/components/Header";
+import Hero from "@/components/Hero";
 export default function page() {
   return (
     <div>
-     <Header/>
+     {/* <Header/> */}
+     <Hero></Hero>
+     <Project></Project>
     </div>
     
   );
