@@ -17,7 +17,7 @@ const Hero = () => {
     >
       {/* <div className="hero-overlay bg-opacity-60"></div> */}
       <div className="hero-content flex-col lg:flex-row items-center text-center flex-wrap">
-        <div className=" flex md:justify-center  flex-col">
+        <div className=" flex max-md:items-center flex-col">
           <motion.div
             className="text-5xl  w-fit text-center font-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent mb-2"
             initial={{ opacity: 0, scale: 0.5 }}
@@ -27,7 +27,7 @@ const Hero = () => {
             Dhanush Prabakaran
           </motion.div>
           <motion.p
-            className="w-fit font-bold text-2xl text-left mb-2"
+            className="w-fit max-md:items-center max-md:text-center font-bold text-2xl text-left mb-2"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
