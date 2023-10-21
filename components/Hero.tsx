@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="hero-content flex-col lg:flex-row items-center text-center flex-wrap">
         <div className=" flex justify-center items-center flex-col">
           <motion.div
-            className="text-5xl  text-center font-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent"
+            className="text-5xl  text-center font-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent m-2"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
@@ -27,7 +27,7 @@ const Hero = () => {
             Dhanush Prabakaran
           </motion.div>
           <motion.p
-            className="py-6 font-bold text-2xl"
+            className="py-6 font-bold text-2xl m-2"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
@@ -35,7 +35,7 @@ const Hero = () => {
             Full Stack Developer, UI/UX Desiger, Blockchain Developer
           </motion.p>
           <motion.div
-            className=" w-fit flex justify-center h-fit"
+            className=" w-fit flex justify-center h-fit m-2"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
@@ -51,7 +51,7 @@ const Hero = () => {
             </a>
           </motion.div>
           <motion.button
-            className="btn btn-primary"
+            className="btn btn-primar m-2"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.5 }}
