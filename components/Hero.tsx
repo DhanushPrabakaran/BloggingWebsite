@@ -64,7 +64,7 @@ const Hero = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.5 }}
         >
-          <Image src={Hello_world} className="rounded-lg max-w-md" alt={""} />
+          <Image src={Hello_world} className="rounded-lg" width={400} alt={""} />
         </motion.div>
         <div className="md:absolute bottom-0 animate-pulse p-0 m-2">Scroll Down</div>
       </div>
