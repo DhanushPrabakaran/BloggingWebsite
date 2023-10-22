@@ -17,14 +17,13 @@ const Project = () => {
       transition={{ delay: 1 }}
     >
       <div className="hero-content text-center flex flex-col ">
-        <h1 className="inline-block text-4xl font-bold text-primary-focus">
-          Project
-        </h1>
+            
+        <h1 className="inline-block text-4xl font-bold text-primary-focus from-purple-600 via-primary-focus to-blue-600 bg-gradient-to-r bg-clip-text text-transparent  ">Project</h1>
         <div className="flex flex-row flex-wrap justify-around">
           {/*  */}
           
             <motion.div
-              className="card  w-64 glass   drop-shadow-2xl shadow-transparent shadow-xl hover:shadow-primary-focus p-2 "
+              className="card  w-64 glass  ml-1 drop-shadow-2xl shadow-transparent shadow-xl hover:shadow-primary-focus  "
               initial={{scale: 0,}}
               whileInView={{scale: 1,}}
               transition={{duration: 1,}}
@@ -50,7 +49,7 @@ const Project = () => {
           {/*  */}
           
             <motion.div
-              className="card w-64 glass p-2   drop-shadow-2xl shadow-transparent shadow-xl hover:shadow-primary-focus "
+              className="card w-64 glass border ml-1   drop-shadow-2xl shadow-transparent shadow-xl hover:shadow-primary-focus "
               initial={{scale: 0,}}
               whileInView={{scale: 1,}}
               transition={{duration: 1,}}
