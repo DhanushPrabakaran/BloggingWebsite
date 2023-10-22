@@ -7,7 +7,7 @@ import linkden from "@/public/icon/linkden.svg";
 import github from "@/public/icon/github.svg";
 import medium from "@/public/icon/medium.svg";
 import Spotify from '@/public/icon/spotify.svg'
-import Dribble from '@/public/icon/Dribbl.svg'
+import Dribble from '@/public/icon/dribbl.svg'
 import Twitter from '@/public/icon/Twitter.svg'
 import Spotif from '@/public/icon/spotify.svg'
 import Link from "next/link";
@@ -67,7 +67,7 @@ const Hero = () => {
           </motion.div>
           <motion.button
           
-            className="btn btn-primary hover:text-black ease-in-out duration-500"
+            className="btn btn-primary hover:text-black ease-in-out duration-500 w-fit"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.5 }}
