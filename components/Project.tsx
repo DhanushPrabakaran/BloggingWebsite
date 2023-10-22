@@ -22,9 +22,9 @@ const Project = () => {
         </h1>
         <div className="flex flex-row flex-wrap justify-around">
           {/*  */}
-          <div className=" hover:-translate-x-2 hover:-translate-y-2 duration-150 m-2 ">
+          
             <motion.div
-              className="card w-72 glass   drop-shadow-2xl shadow-transparent shadow-xl hover:shadow-primary-focus "
+              className="card  w-64 glass   drop-shadow-2xl shadow-transparent shadow-xl hover:shadow-primary-focus p-2 "
               initial={{scale: 0,}}
               whileInView={{scale: 1,}}
               transition={{duration: 1,}}
@@ -45,12 +45,12 @@ const Project = () => {
                 </div>
               </div>
             </motion.div>
-          </div>
+          
           {/*  */}
           {/*  */}
-          <div className=" hover:-translate-x-2 hover:-translate-y-2 duration-150 m-2 ">
+          
             <motion.div
-              className="card w-72 glass   drop-shadow-2xl shadow-transparent shadow-xl hover:shadow-primary-focus "
+              className="card w-64 glass p-2   drop-shadow-2xl shadow-transparent shadow-xl hover:shadow-primary-focus "
               initial={{scale: 0,}}
               whileInView={{scale: 1,}}
               transition={{duration: 1,}}
@@ -71,7 +71,7 @@ const Project = () => {
                 </div>
               </div>
             </motion.div>
-          </div>
+          
           {/*  */}
         </div>
       </div>
