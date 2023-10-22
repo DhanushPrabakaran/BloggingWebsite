@@ -41,28 +41,28 @@ const Hero = () => {
             Full Stack Developer, UI/UX Desiger, Blockchain Developer
           </motion.p>
           <motion.div
-            className=" w-fit flex justify-center h-fit align-middle  my-2"
+            className=" divider text-primary-focus w-fit h-fit flex justify-center  align-middle  my-2 "
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
           >
             <a href="" className="flex">
-              <Image src={linkden} width={30} className=" mr-2" alt={""} />
+              <Image src={linkden} width={30} className=" w-24 mr-2" alt={""} />
             </a>
             <a href="" className="flex ">
-              <Image src={medium} width={30} className="mr-2" alt={""} />
+              <Image src={medium} width={30} className="mr-2 w-24" alt={""} />
             </a>
             <a href="" className="flex ">
-              <Image src={github} width={30}  className="mr-2 fill-primary-focus" alt={""} />
+              <Image src={github} width={30}  className="mr-2 w-24 fill-primary-focus" alt={""} />
             </a>
             <a href="" className="flex ">
-              <Image src={Spotify} width={30}  className="mr-2 fill-primary-focus" alt={""} />
+              <Image src={Spotify} width={30}  className="mr-2 w-24 fill-primary-focus" alt={""} />
             </a>
             <a href="" className="flex ">
-              <Image src={Dribble}  width={30}  className="mr-2 fill-primary-focus" alt={""} />
+              <Image src={Dribble}  width={30}  className="mr-2 w-24 fill-primary-focus" alt={""} />
             </a>
             <a href="" className="flex ">
-              <Image src={Twitter} width={30}   className="mr-2 fill-primary-focus" alt={""} />
+              <Image src={Twitter} width={30}   className="mr-2 w-24 fill-primary-focus" alt={""} />
             </a>
           </motion.div>
           <motion.button

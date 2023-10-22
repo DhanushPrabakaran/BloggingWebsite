@@ -11,14 +11,13 @@ export default function page() {
   return (
     <div
     className=" scroll-smooth">
-     <Header/>
+      <Header />
      <Hero/>
      <About/>
      <Project/>
      <Expertize/>
      <Achievements/>
      <Contact/>
-
      <Footer/>
     </div>
     
