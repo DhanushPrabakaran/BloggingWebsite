@@ -25,7 +25,7 @@ const Hero = () => {
       <div className="hero-content flex-col lg:flex-row items-center text-center flex-wrap">
         <div className=" flex max-md:items-center flex-col">
           <motion.div
-            className="text-5xl  w-fit text-center font-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent mb-2"
+            className="text-5xl  w-fit text-center font-bold from-purple-600 via-primary-focus to-blue-600 bg-gradient-to-r bg-clip-text text-transparent mb-2"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
@@ -41,12 +41,12 @@ const Hero = () => {
             Full Stack Developer, UI/UX Desiger, Blockchain Developer
           </motion.p>
           <motion.div
-            className=" w-fit flex justify-center h-fit align-middle  m-2 "
+            className=" w-fit flex justify-center h-fit align-middle  my-2"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
           >
-            <a href="" className="flex ">
+            <a href="" className="flex">
               <Image src={linkden} width={30} className=" mr-2" alt={""} />
             </a>
             <a href="" className="flex ">
@@ -66,7 +66,8 @@ const Hero = () => {
             </a>
           </motion.div>
           <motion.button
-            className="btn btn-primary w-fit"
+          
+            className="btn btn-primary hover:text-black ease-in-out duration-500"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.5 }}
@@ -81,13 +82,12 @@ const Hero = () => {
         >
           <Image
             src={Hello_world}
-            className="rounded-lg"
-            width={400}
+            width={500}
             alt={""}
           />
         </motion.div>
         <motion.div
-       
+
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.5 }} className="md:absolute flex flex-col justify-center align-middle items-center bottom-0 animate-pulse p-0 m-2">
@@ -95,9 +95,10 @@ const Hero = () => {
           className=" font-bold text-xl">Scroll Down</p> */}
           <Link
           href="#Project"
+          
           className="border flex flex-col border-white py-2 p-1 rounded-full mt-3 justify-center items-center align-middle" >
           <svg
-            className="w-5 h-5 text-gray-800 dark:text-white animate-bounce pt-2"
+            className="w-5 h-5 text-gray-800 dark:text-white animate-bounce pt-2 "
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

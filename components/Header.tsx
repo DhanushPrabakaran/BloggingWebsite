@@ -26,91 +26,80 @@ const Header = () => {
             className="menu menu-sm dropdown-content mt-3  p-2 shadow bg-base-100 rounded-box w-52 z-10 "
           >
             <li>
-              <a
-              href="#Home">Home</a>
+              <a href="#Home"
+              className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Home</a>
             </li>
             <li>
-              <a
-              href="#About"
-              >About me!
-              </a>
+              <a href="#About"
+              className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">About me!</a>
             </li>
-            
+
             <li>
-              <a
-              href="#Project">Project</a>
+              <a href="#Project"
+              className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Project</a>
               <ul className="p-2">
                 <li>
-                  <a
-                  href="#Project1"
-                  >Project-1</a>
+                  <a href="#Project1"
+                  className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Project-1</a>
                 </li>
                 <li>
-                  <a
-                  href="#Project2"
-                  >Project-2</a>
+                  <a href="#Project2"
+                  className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Project-2</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a
-              href="#Expertize"
-              >Expertize</a>
+              <a href="#Expertize"
+              className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Expertize</a>
             </li>
             <li>
-              <a
-              href="#Achievements"
-              >Achievements</a>
+              <a href="#Achievements"
+              className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Achievements</a>
             </li>
-
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">Draco</a>
+        <a className="btn btn-ghost normal-case text-xl from-purple-600 via-primary-focus to-blue-600 bg-gradient-to-r bg-clip-text text-transparent ">Draco</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 ">
           <li>
-              <a
+            <a
               href="#Home"
-              className=" underline hover:text-primary-focus">Home</a>
-            </li>
-            <li>
-              <a
-              href="#About"
-              >About me!
-              </a>
-            </li>
+              className=" hover:border-x-2 border-primary-focus hover:text-primary-focus"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#About"
+            className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">About me!</a>
+          </li>
           <li tabIndex={0}>
             <details>
-              <summary>Project</summary>
+              <summary
+              className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Project</summary>
               <ul className="p-2">
-              <li>
-                  <a
-                  href="#Project1"
-                  >Project-1</a>
+                <li>
+                  <a href="#Project1"
+                  className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Project-1</a>
                 </li>
                 <li>
-                  <a
-                  href="#Project2"
-                  >Project-2</a>
+                  <a href="#Project2" className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Project-2</a>
                 </li>
               </ul>
             </details>
           </li>
           <li>
-              <a
-              href="#Expertize"
-              >Expertize</a>
-            </li>
-            <li>
-              <a
-              href="#Achievements"
-              >Achievements</a>
-            </li>
+            <a href="#Expertize" className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Expertize</a>
+          </li>
+          <li>
+            <a href="#Achievements" className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Achievements</a>
+          </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Get Connected</a>
+        <a className="btn btn-primary hover:text-black ease-in-out duration-500" 
+        href="#Connect">Get Connected</a>
       </div>
     </div>
   );
