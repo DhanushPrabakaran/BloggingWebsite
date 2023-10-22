@@ -30,7 +30,7 @@ const config: Config = {
       light: {
         ...require("daisyui/src/theming/themes")["[data-theme=dark]"],
         "primary": "#0A1817",
-        "primary-focus": "#347A7E",
+        "primary-focus": "#7de5f4",
       },
     }], // true: all themes | false: only light + dark | array: specific themes like this ["light", "dark", "cupcake"]
     darkTheme: "dark", // name of one of the included themes for dark mode

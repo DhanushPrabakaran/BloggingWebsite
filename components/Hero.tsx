@@ -6,9 +6,15 @@ import Hello_world from "@/public/hello_world.gif";
 import linkden from "@/public/icon/linkden.svg";
 import github from "@/public/icon/github.svg";
 import medium from "@/public/icon/medium.svg";
+import Spotify from '@/public/icon/spotify.svg'
+import Dribble from '@/public/icon/Dribbl.svg'
+import Twitter from '@/public/icon/Twitter.svg'
+import Spotif from '@/public/icon/spotify.svg'
+import Link from "next/link";
 const Hero = () => {
   return (
     <div
+    id="Hero"
       className="hero min-h-screen bg-[#0A1817]"
       //   style={{
       //     backgroundImage:
@@ -35,19 +41,28 @@ const Hero = () => {
             Full Stack Developer, UI/UX Desiger, Blockchain Developer
           </motion.p>
           <motion.div
-            className=" w-fit flex justify-center h-fit "
+            className=" w-fit flex justify-center h-fit align-middle  m-2 "
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
           >
-            <a href="">
-              <Image src={linkden} className=" mr-2" alt={""} />
+            <a href="" className="flex ">
+              <Image src={linkden} width={30} className=" mr-2" alt={""} />
             </a>
-            <a href="">
-              <Image src={medium} className="mr-2" alt={""} />
+            <a href="" className="flex ">
+              <Image src={medium} width={30} className="mr-2" alt={""} />
             </a>
-            <a href="">
-              <Image src={github} className="mr-2" alt={""} />
+            <a href="" className="flex ">
+              <Image src={github} width={30}  className="mr-2 fill-primary-focus" alt={""} />
+            </a>
+            <a href="" className="flex ">
+              <Image src={Spotify} width={30}  className="mr-2 fill-primary-focus" alt={""} />
+            </a>
+            <a href="" className="flex ">
+              <Image src={Dribble}  width={30}  className="mr-2 fill-primary-focus" alt={""} />
+            </a>
+            <a href="" className="flex ">
+              <Image src={Twitter} width={30}   className="mr-2 fill-primary-focus" alt={""} />
             </a>
           </motion.div>
           <motion.button
@@ -76,10 +91,11 @@ const Hero = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.5 }} className="md:absolute flex flex-col justify-center align-middle items-center bottom-0 animate-pulse p-0 m-2">
-          <p
-          className=" font-bold text-xl">Scroll Down</p>
-          <div
-          className="border flex flex-col border-white py-2 p-1 rounded-full mt-3 justify-center items-center align-middle">
+          {/* <p
+          className=" font-bold text-xl">Scroll Down</p> */}
+          <Link
+          href="#Project"
+          className="border flex flex-col border-white py-2 p-1 rounded-full mt-3 justify-center items-center align-middle" >
           <svg
             className="w-5 h-5 text-gray-800 dark:text-white animate-bounce pt-2"
             aria-hidden="true"
@@ -110,7 +126,7 @@ const Hero = () => {
               d="m1 1 5.326 5.7a.909.909 0 0 0 1.348 0L13 1"
             />
           </svg>
-          </div>
+          </Link>
         </motion.div>
       </div>
     </div>
