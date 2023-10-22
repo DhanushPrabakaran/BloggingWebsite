@@ -25,7 +25,7 @@ const Hero = () => {
       <div className="hero-content flex-col lg:flex-row items-center text-center flex-wrap">
         <div className=" flex max-md:items-center flex-col">
           <motion.div
-            className="text-5xl  w-fit text-center font-bold from-purple-600 via-primary-focus to-blue-600 bg-gradient-to-r bg-clip-text text-transparent mb-2"
+            className="text-5xl  w-fit text-center font-bold from-purple-600 via-primary-focus to-blue-600 bg-gradient-to-r bg-clip-text text-transparent my-2"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
@@ -33,7 +33,7 @@ const Hero = () => {
             Dhanush Prabakaran
           </motion.div>
           <motion.p
-            className="w-fit max-md:items-center max-md:text-center font-bold text-2xl text-left mb-2"
+            className="w-fit max-md:items-center max-md:text-center font-bold text-2xl text-left my-2"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
@@ -67,7 +67,7 @@ const Hero = () => {
           </motion.div>
           <motion.button
           
-            className="btn btn-primary hover:text-black ease-in-out duration-500 w-fit"
+            className="btn btn-primary hover:text-black ease-in-out duration-500 w-fit my-2"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.5 }}
