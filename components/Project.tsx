@@ -17,7 +17,7 @@ const Project = () => {
       transition={{ delay: 1 }}
     >
       <div className="hero-content text-center flex flex-col ">
-        <h1 className="inline-block text-5xl font-bold text-primary-focus">
+        <h1 className="inline-block text-4xl font-bold text-primary-focus">
           Project
         </h1>
         <div className="flex flex-row flex-wrap justify-around">
