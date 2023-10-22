@@ -31,7 +31,7 @@ const About = () => {
                   <span className=" text-secondary">
                     B.Tech in Computer Science and Business Systems
                   </span>{" "}
-                  at KIT- Kalaignarkarunanidhi Institute of Technology.
+                  at KIT- Kalaignarkarunanidhi Institute of Technology, where I have gained a solid foundation in software engineering principles and best practices. I am passionate about collaborating with industry professionals to further develop my skills and knowledge, and I am excited about the opportunities that lie ahead.
                 </p>
               </div>
             </div>

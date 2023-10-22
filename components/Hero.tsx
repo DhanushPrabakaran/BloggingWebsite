@@ -16,16 +16,14 @@ const Hero = () => {
     <div
     id="Hero"
       className="hero min-h-screen bg-[#0A1817]"
-      //   style={{
-      //     backgroundImage:
-      //       "url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
-      //   }}
     >
-      {/* <div className="hero-overlay bg-opacity-60"></div> */}
-      <div className="hero-content flex-col lg:flex-row items-center text-center flex-wrap">
-        <div className=" flex max-md:items-center flex-col">
+      
+      <div className="hero-content w-full  flex-col items-center text-center flex-wrap justify-end">
+        <div
+        className=" w-full lg:flex-row flex-col flex justify-center items-center  content-center self-center  align-middle ">
+        <div className=" flex max-md:items-center  flex-col">
           <motion.div
-            className="text-5xl  w-fit text-center font-bold from-purple-600 via-primary-focus to-blue-600 bg-gradient-to-r bg-clip-text text-transparent my-2"
+            className="text-5xl max-md:items-center font-bold from-purple-600 via-primary-focus to-blue-600 bg-gradient-to-r bg-clip-text text-transparent my-2"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
@@ -53,7 +51,7 @@ const Hero = () => {
               <Image src={medium} width={30} className="mr-2 w-24" alt={""} />
             </a>
             <a href="" className="flex ">
-              <Image src={github} width={30}  className="mr-2 w-24 fill-primary-focus" alt={""} />
+              <Image src={github} width={40}  className="mr-2 w-32 fill-primary-focus" alt={""} />
             </a>
             <a href="" className="flex ">
               <Image src={Spotify} width={30}  className="mr-2 w-24 fill-primary-focus" alt={""} />
@@ -84,13 +82,15 @@ const Hero = () => {
             src={Hello_world}
             width={500}
             alt={""}
+            className=" items-center justify-center self-center"
           />
         </motion.div>
+        </div>
         <motion.div
 
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1.5 }} className="md:absolute flex flex-col justify-center align-middle items-center bottom-0 animate-pulse p-0 m-2">
+          transition={{ duration: 1.5 }} className=" flex flex-col justify-center align-middle items-center bottom-0 animate-pulse p-0 m-2">
           {/* <p
           className=" font-bold text-xl">Scroll Down</p> */}
           <Link
