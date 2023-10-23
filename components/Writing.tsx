@@ -4,7 +4,8 @@ import { motion, useDragControls } from "framer-motion";
 const Writing = () => {
   const controls = useDragControls();
   return (
-    <div className="hero min-h-screen bg-primary overflow-hidden">
+    <div className="hero min-h-screen bg-primary overflow-hidden"
+    id="Writing">
       <div className="hero-content text-center flex flex-col">
         <div className="text-4xl font-bold from-purple-600 via-primary-focus to-blue-600 bg-gradient-to-r bg-clip-text text-transparent">
           Writings

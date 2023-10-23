@@ -17,7 +17,7 @@ export default function page() {
      <Hero/>
      <About/>
      <Project/>
-     <Expertize/>
+     {/* <Expertize/> */}
      <Achievements/>
      <Writing></Writing>
      <Contact/>

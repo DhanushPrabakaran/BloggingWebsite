@@ -48,14 +48,17 @@ const Header = () => {
                 </li>
               </ul>
             </li>
-            <li>
+            {/* <li>
               <a href="#Expertize"
               className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Expertize</a>
-            </li>
+            </li> */}
             <li>
               <a href="#Achievements"
               className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Achievements</a>
             </li>
+            <li>
+            <a href="#Writing" className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Writing</a>
+          </li>
           </ul>
         </div>
         <a className="btn btn-ghost normal-case text-xl from-purple-600 via-primary-focus to-blue-600 bg-gradient-to-r bg-clip-text text-transparent ">Draco</a>
@@ -89,11 +92,14 @@ const Header = () => {
               </ul>
             </details>
           </li>
-          <li>
+          {/* <li>
             <a href="#Expertize" className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Expertize</a>
-          </li>
+          </li> */}
           <li>
             <a href="#Achievements" className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Achievements</a>
+          </li>
+          <li>
+            <a href="#Writing" className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Writing</a>
           </li>
         </ul>
       </div>
