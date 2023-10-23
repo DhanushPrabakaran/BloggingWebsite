@@ -1,7 +1,9 @@
+'use client'
 import React from "react";
 import Image from "next/image";
 import IMa from "@/public/computer_light.gif";
 import Profile from "@/public/Profile picture.png";
+import { motion } from "framer-motion";
 const About = () => {
   return (
     <div id="About" className="hero min-h-screen bg-primary">
@@ -11,7 +13,12 @@ const About = () => {
             About me !
           </h1>
           <div className="  max-md:w-full w-9/12 flex items-center flex-col justify-center mt-20">
-            <div className=" h-fit  border-2 border-primary-focus card w-full bg-base-100 shadow-xl ">
+            <motion.div
+    
+    
+    initial={{scale: 0,}}
+    whileInView={{scale: 1,}}
+    transition={{duration: 1,}} className=" h-fit  border-2 border-primary-focus card w-full bg-base-100 shadow-xl ">
               <Image
                 src={Profile}
                 alt="Computer"
@@ -34,7 +41,7 @@ const About = () => {
                   at KIT- Kalaignarkarunanidhi Institute of Technology, where I have gained a solid foundation in software engineering principles and best practices. I am passionate about collaborating with industry professionals to further develop my skills and knowledge, and I am excited about the opportunities that lie ahead.
                 </p>
               </div>
-            </div>
+            </ motion.div>
           </div>
         </div>
       </div>

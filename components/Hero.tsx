@@ -22,27 +22,34 @@ const Hero = () => {
         <div
         className=" w-full lg:flex-row flex-col flex justify-center items-center  content-center self-center  align-middle ">
         <div className=" flex max-md:items-center  flex-col">
-          <motion.div
+        <motion.div
+    initial={{scale: 0,}}
+    whileInView={{scale: 1,}}
+    transition={{duration: 1,}}
             className="text-5xl max-md:items-center font-bold from-purple-600 via-primary-focus to-blue-600 bg-gradient-to-r bg-clip-text text-transparent my-2"
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5 }}
+            
           >
             Dhanush Prabakaran
           </motion.div>
           <motion.p
+    
+    
+    initial={{scale: 0,}}
+    whileInView={{scale: 1,}}
+    transition={{duration: 1,}}
             className="w-fit max-md:items-center max-md:text-center font-bold text-2xl text-left my-2"
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1 }}
+            
           >
             Full Stack Developer, UI/UX Desiger, Blockchain Developer
           </motion.p>
           <motion.div
+    
+    
+    initial={{scale: 0,}}
+    whileInView={{scale: 1,}}
+    transition={{duration: 1,}}
             className=" divider text-primary-focus w-fit h-fit flex justify-center  align-middle  my-2 "
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1 }}
+            
           >
             <a href="https://www.linkedin.com/in/dhanushprabakar/" className="flex">
               <Image src={linkden} width={30} className=" w-24 mr-2" alt={""} />
@@ -64,19 +71,24 @@ const Hero = () => {
             </a>
           </motion.div>
           <motion.button
+    
+    
+    initial={{scale: 0,}}
+    whileInView={{scale: 1,}}
+    transition={{duration: 1,}}
           
             className="btn btn-primary hover:text-black ease-in-out duration-500 w-fit my-2"
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1.5 }}
+            
           >
             Download Resume
           </motion.button>
         </div>
         <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1.5 }}
+    
+    
+    initial={{scale: 0,}}
+    whileInView={{scale: 1,}}
+    transition={{duration: 1,}}
         >
           <Image
             src={Hello_world}
@@ -87,10 +99,12 @@ const Hero = () => {
         </motion.div>
         </div>
         <motion.div
-
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1.5 }} className=" flex flex-col justify-center align-middle items-center bottom-0 animate-pulse p-0 m-2">
+    
+    
+    initial={{scale: 0,}}
+    whileInView={{scale: 1,}}
+    transition={{duration: 1,}}
+           className=" flex flex-col justify-center align-middle items-center bottom-0 animate-pulse p-0 m-2">
           {/* <p
           className=" font-bold text-xl">Scroll Down</p> */}
           <Link

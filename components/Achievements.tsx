@@ -1,7 +1,9 @@
+'use client'
 import React from "react";
 import Image from "next/image";
 import Imaff from "@/public/computer_light.gif";
 import Dev_Geeks from "@/public/Dev_Geeks_Relese.jpeg";
+import { motion } from "framer-motion";
 const Achievements = () => {
   return (
     <div id="Achievements" className="hero min-h-screen bg-primary">
@@ -13,7 +15,12 @@ const Achievements = () => {
           <div>
 
             {/*  */}
-            <div
+            <motion.div
+    
+    
+    initial={{scale: 0,}}
+    whileInView={{scale: 1,}}
+    transition={{duration: 1,}}
               className={`hero card mb-2 max-w-5xl  shadow-xl    `}
               style={{
                 backgroundImage: `url(https://media.licdn.com/dms/image/D5622AQGOKizGwFZyIQ/feedshare-shrink_1280/0/1696958729553?e=1700697600&v=beta&t=Kh_sx-V484zplWNYSFt8uqQ7ywAHHyf7KBaSK8Yns5c)`,
@@ -39,11 +46,16 @@ const Achievements = () => {
                 </p>
                 <div className="card-actions justify-end"></div>
               </div>
-            </div>
+            </motion.div>
             {/*  */}
 
             {/*  */}
-            <div
+            <motion.div
+    
+    
+    initial={{scale: 0,}}
+    whileInView={{scale: 1,}}
+    transition={{duration: 1,}}
               className={`hero card mb-2 max-w-5xl  shadow-xl    `}
               style={{
                 backgroundImage: `url(https://media.licdn.com/dms/image/D4D22AQF7vibDEg7NKw/feedshare-shrink_800/0/1689693559093?e=1700697600&v=beta&t=xBxKOyrMfhyzIJMv0EadjmUkUUbhxuRTkWAl9IBjfek)`,
@@ -63,7 +75,7 @@ And finally, I got an opportunity to express the idea in front of a huge audienc
                 </p>
                 <div className="card-actions justify-end"></div>
               </div>
-            </div>
+            </motion.div>
             {/*  */}
 
             
