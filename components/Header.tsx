@@ -57,7 +57,7 @@ const Header = () => {
               className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Achievements</a>
             </li>
             <li>
-            <a href="#Writing" className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Writing</a>
+            <a href="#Writing" className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Brain Waves</a>
           </li>
           </ul>
         </div>
@@ -99,7 +99,7 @@ const Header = () => {
             <a href="#Achievements" className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Achievements</a>
           </li>
           <li>
-            <a href="#Writing" className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Writing</a>
+            <a href="#Writing" className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Brain Waves</a>
           </li>
         </ul>
       </div>
