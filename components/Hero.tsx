@@ -44,22 +44,22 @@ const Hero = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
           >
-            <a href="" className="flex">
+            <a href="https://www.linkedin.com/in/dhanushprabakar/" className="flex">
               <Image src={linkden} width={30} className=" w-24 mr-2" alt={""} />
             </a>
-            <a href="" className="flex ">
+            <a href="https://medium.com/@dhanushprabakaran18" className="flex ">
               <Image src={medium} width={30} className="mr-2 w-24" alt={""} />
             </a>
-            <a href="" className="flex ">
+            <a href="https://github.com/DhanushPrabakaran" className="flex ">
               <Image src={github} width={40}  className="mr-2 w-32 fill-primary-focus" alt={""} />
             </a>
-            <a href="" className="flex ">
+            <a href="https://open.spotify.com/user/3xn4a5w7pqbo94ztkvjlt2m7d" className="flex ">
               <Image src={Spotify} width={30}  className="mr-2 w-24 fill-primary-focus" alt={""} />
             </a>
-            <a href="" className="flex ">
+            <a href="https://dribbble.com/dhanu_sh" className="flex ">
               <Image src={Dribble}  width={30}  className="mr-2 w-24 fill-primary-focus" alt={""} />
             </a>
-            <a href="" className="flex ">
+            <a href="https://twitter.com/sudha_dhanush" className="flex ">
               <Image src={Twitter} width={30}   className="mr-2 w-24 fill-primary-focus" alt={""} />
             </a>
           </motion.div>
