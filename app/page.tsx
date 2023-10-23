@@ -6,6 +6,8 @@ import About from "@/components/About"
 import Achievements from "@/components/Achievements"
 import Contact from "@/components/Contact"
 import Expertize from "@/components/Expertize"
+import Writing from "@/components/Writing";
+
 export default function page() {
 
   return (
@@ -17,6 +19,7 @@ export default function page() {
      <Project/>
      <Expertize/>
      <Achievements/>
+     <Writing></Writing>
      <Contact/>
      <Footer/>
     </div>
