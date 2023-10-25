@@ -1,5 +1,5 @@
 import './globals.css'
-import photot from "@/public/hello_world.gif"
+import photot from "@/public/Profile picture.png"
 import type { Metadata } from 'next'
 import {Russo_One} from 'next/font/google'
 const russo_One = Russo_One({
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://www.example.com/path-to-your-image.jpg",
-        type: "image/gif",
+        type: "image/png",
         width: 1200,
         height: 630,
         alt: "EMM",
