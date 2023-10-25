@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://www.example.com/path-to-your-image.jpg",
-        type: "image/jpg",
+        type: "image/gif",
         width: 1200,
         height: 630,
         alt: "EMM",
