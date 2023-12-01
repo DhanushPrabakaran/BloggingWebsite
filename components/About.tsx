@@ -14,8 +14,6 @@ const About = () => {
           </h1>
           <div className="  max-md:w-full w-9/12 flex items-center flex-col justify-center mt-20">
             <motion.div
-    
-    
     initial={{scale: 0,}}
     whileInView={{scale: 1,}}
     transition={{duration: 1,}} className=" h-fit  border-2 border-primary-focus card w-full bg-base-100 shadow-xl ">
