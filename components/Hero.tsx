@@ -16,7 +16,7 @@ const Hero = () => {
     <div id="Hero" className="hero min-h-screen bg-[#0A1817]">
       <div className="hero-content w-full  flex-col items-center text-center flex-wrap justify-end">
         <div className=" w-full lg:flex-row flex-col flex justify-center items-center  content-center self-center  align-middle ">
-          <div className=" flex max-md:items-center text-center  flex-col">
+          <div className=" flex items-center text-center  flex-col">
             <motion.div
               initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
