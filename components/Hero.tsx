@@ -31,7 +31,7 @@ const Hero = () => {
               transition={{ duration: 1 }}
               className="w-fit max-md:items-center max-md:text-center font-bold text-2xl text-left my-2"
             >
-              Full Stack Developer, UI/UX Desiger
+              Full Stack Developer
             </motion.p>
             <motion.div
               initial={{ scale: 0 }}
